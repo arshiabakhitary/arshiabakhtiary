@@ -284,7 +284,7 @@
     transition:opacity .5s ease, transform .5s ease;
   }
   .role-cycle span.active{opacity:1; transform:translateY(0); color:var(--cyan);}
-  @media (max-width:900px){.role-cycle span{inset-inline-start:50%; transform:translate(-50%,10px);} .role-cycle span.active{transform:translate(-50%,0);}}
+  @media (max-width:900px){.role-cycle span{inset-inline-start:0; left:0; right:0; text-align:center; transform:translateY(10px);} .role-cycle span.active{transform:translateY(0);}}
 
   .badges{
     margin-top:26px;
