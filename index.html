@@ -2,7 +2,7 @@
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>عرشیا بختیاری | Arshia Bakhtiari — Developer, Game Dev &amp; Creator</title>
 
 <!-- SEO: description + robots -->
@@ -74,7 +74,7 @@
 
   *{box-sizing:border-box; margin:0; padding:0;}
 
-  html{scroll-behavior:smooth;}
+  html{scroll-behavior:smooth; overflow-x:hidden; width:100%; overscroll-behavior-x:none;}
 
   ::selection{background:var(--cyan); color:#04140f;}
 
@@ -89,6 +89,7 @@
     font-family:var(--font-fa);
     line-height:1.7;
     overflow-x:hidden;
+    overscroll-behavior-x:none;
     position:relative;
   }
 
